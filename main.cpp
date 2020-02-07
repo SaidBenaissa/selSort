@@ -28,4 +28,4 @@ int main() {
     return 0;
 }
 
-// Time complexity of Selection sort algorithm is BigO of n^2  = O(n^2)
+// Time complexity of Selection sort algorithm is BigO of n^2  = O(n^2): is not the good runtime algorithm
