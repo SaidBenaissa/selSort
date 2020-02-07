@@ -1,6 +1,7 @@
 #include <iostream>
-
-void selSort(int A[], int n){
+class SelectionSort{
+public:
+    void selSort(int A[], int n){
     for (int i = 0; i <n-1 ; ++i) {
 
         int iMin =i;
@@ -14,9 +15,11 @@ void selSort(int A[], int n){
         A[iMin] = temp;
     }
 }
+};
 int main() {
     int A[] = {2,7,4,1,5,3};
-    selSort(A,5);
+    SelectionSort selectionSort;
+    selectionSort.selSort(A,5);
     for (int i = 0; i <6; ++i) {
         std::cout << A[i] << " ";
     }
